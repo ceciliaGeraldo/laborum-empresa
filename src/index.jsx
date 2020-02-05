@@ -7,12 +7,13 @@ import * as serviceWorker from './serviceWorker';
 
 import firebaseConfig from './firebase-config';
 
+
 ReactDOM.render((
-  <FirebaseAppProvider firebaseConfig={firebaseConfig}>
-    <Suspense fallback="Conectando a la app">
-      <App />
-    </Suspense>
-  </FirebaseAppProvider>
+    <FirebaseAppProvider firebaseConfig={firebaseConfig}>
+        <Suspense fallback={'Conectando a la app'}>
+            <App />
+        </Suspense>
+    </FirebaseAppProvider>
 ), document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
