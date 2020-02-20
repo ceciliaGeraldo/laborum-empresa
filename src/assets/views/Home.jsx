@@ -11,8 +11,8 @@ const Home = () => (
   <div className="col-12">
     <Header />
     <Sidebar />
-    <Content/>
-    <Footer />
+    <Content />
+
   </div>
 );
 

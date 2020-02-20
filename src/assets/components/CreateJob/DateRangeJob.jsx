@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import db from '../../../firebase-config';
 import { useMyContext } from '../../states/provider';
 
@@ -30,10 +31,6 @@ const DateRangeJob = () => {
     })
       .then((docRef) => {
         console.log('Document written with ID: ', docRef.id);
-        // dispatch({
-        //   type: 'ADD_WORKEXPERIENCE',
-        //   payload: docRef.id,
-        // });
       })
       .catch((error) => {
         console.error('Error adding document: ', error);
@@ -61,7 +58,10 @@ const DateRangeJob = () => {
         name="endDate"
         onChange={onChange}
       />
+      <Link to="/ApplicantJob" className>Atras</Link>
       <button onClick={sendFirebase}>Guardar</button>
+      <Link to="/">Nuevo aviso</Link>
+
     </div>
 
   );
