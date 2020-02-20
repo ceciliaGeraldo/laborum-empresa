@@ -1,5 +1,4 @@
 const initialStateProfile = {
-<<<<<<< HEAD
   nameCompany: '',
   businessName: '',
   address: '',
@@ -19,8 +18,6 @@ const initialStateProfile = {
   companyDescription: '',
   companyArea: '',
   interestAreas: '',
-=======
->>>>>>> 2de0c47737e86610ad64d70c9b5cebd0bdbeba8e
   jobName: '',
   beginDate: '',
   rent: '',
