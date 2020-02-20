@@ -36,7 +36,7 @@ const BasicInfo = () => {
       <label>Cuidad</label>
       <input
         type="text"
-        name="city"
+        name="cityProfile"
         onChange={onChange}
       />
 

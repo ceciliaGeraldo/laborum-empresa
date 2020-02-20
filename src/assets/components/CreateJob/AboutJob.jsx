@@ -63,7 +63,7 @@ const BasicInfo = () => {
         </section>
       </div>
 
-      <hr className="separator"/>
+      <hr className="separator" />
       <section className="btn-section">
         <button className="btn-back">Atrás</button>
         <button className="btn-next">Siguiente</button>

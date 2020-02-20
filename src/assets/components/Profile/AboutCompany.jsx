@@ -12,7 +12,7 @@ function AboutCompany() {
       businessName: myState.businessName,
       address: myState.address,
       country: myState.country,
-      city: myState.city,
+      cityProfile: myState.cityProfile,
       googleAnalytics: myState.googleAnalytics,
       registerMail: myState.registerMail,
       optionalMail: myState.optionalMail,
