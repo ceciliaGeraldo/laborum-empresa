@@ -7,6 +7,7 @@ import clock from '../../img/Exclude.png';
 import briefcase from '../../img/Vector2.png';
 import trash from '../../img/Activo.png';
 import seemore from '../../img/See more.png';
+import FilterBar from '../filterBar/FilterBar';
 
 function JobsView() {
   const [jobs, setJobs] = useState([])
@@ -30,6 +31,7 @@ function JobsView() {
   return (
     <div>
       <section className="job-box col-12">
+        <FilterBar />
         {jobs.map((Jobs) =>
           <div className="job-offer col-3">
             <div className="logo-status-location">

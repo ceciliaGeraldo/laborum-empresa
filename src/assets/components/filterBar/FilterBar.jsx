@@ -2,7 +2,7 @@ import React from 'react';
 import './FilterBar.css';
 
 export default () => (
-  <div className="col-8 filter-bar-box">
+  <div className="col-11 filter-bar-box">
     <div className="filter-bar">
       <section className="container-title col-6">
         Gestión de Aviso
