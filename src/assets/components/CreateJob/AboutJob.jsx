@@ -1,12 +1,14 @@
-import React from "react";
-import { useMyContext } from "../../states/provider";
-import "./CreateJob.css";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { useMyContext } from '../../states/provider';
+import './CreateJob.css';
+
 
 const BasicInfo = () => {
   const [myState, dispatch] = useMyContext();
-  const onChange = event => {
+  const onChange = (event) => {
     dispatch({
-      type: "ADD_INFORMATION",
+      type: 'ADD_INFORMATION',
       field: event.target.name,
       value: event.target.value,
     });
@@ -66,7 +68,7 @@ const BasicInfo = () => {
       <hr className="separator" />
       <section className="btn-section">
         <button className="btn-back">Atrás</button>
-        <button className="btn-next">Siguiente</button>
+        <Link to="/ApplicantJob" className="btn-next ">Siguiente</Link>
       </section>
     </div>
   );
