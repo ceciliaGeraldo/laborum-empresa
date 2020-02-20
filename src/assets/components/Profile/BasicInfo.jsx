@@ -36,7 +36,11 @@ const BasicInfo = () => {
       <label>Cuidad</label>
       <input
         type="text"
+<<<<<<< HEAD
         name="cityProfile"
+=======
+        name="city"
+>>>>>>> b0fddde7030e45d95115531a1296764b4235ec06
         onChange={onChange}
       />
 
