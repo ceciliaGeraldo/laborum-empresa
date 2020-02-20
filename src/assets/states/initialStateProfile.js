@@ -1,4 +1,5 @@
 const initialStateProfile = {
+<<<<<<< HEAD
   nameCompany: '',
   businessName: '',
   address: '',
@@ -18,13 +19,38 @@ const initialStateProfile = {
   companyDescription: '',
   companyArea: '',
   interestAreas: '',
+=======
+  // nameCompany: '',
+  // businessName: '',
+  // address: '',
+  // country: '',
+  // city: '',
+  // googleAnalytics: '',
+  // registerMail: '',
+  // stateId: '',
+  // optionalMail: '',
+  // phoneNumber: '',
+  // optionalPhoneNumber: '',
+  // webPage: '',
+  // facebook: '',
+  // linkedin: '',
+  // youtube: '',
+  // twitter: '',
+  // companyDescription: '',
+  // companyArea: '',
+  // interestAreas: '',
+>>>>>>> b0fddde7030e45d95115531a1296764b4235ec06
   jobName: '',
   beginDate: '',
   rent: '',
   webSite: '',
   region: '',
   countryState: '',
+<<<<<<< HEAD
   cityProfile: '',
+=======
+  city: '',
+>>>>>>> b0fddde7030e45d95115531a1296764b4235ec06
   workDay: '',
   inclusion: '',
   contractType: '',
