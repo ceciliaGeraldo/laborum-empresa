@@ -4,10 +4,11 @@ import '../../App.css';
 import './CreateJobAnnouncement.css';
 import RouterJob from './RouterJob';
 // import { Prueba } from '../components/router';
-
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 const CreateJobAnnouncement = () => {
   return (
+    
     <div className="create-job-view col-12">
       <section className="container-title col-12">
         Estás creando un aviso
@@ -21,6 +22,7 @@ const CreateJobAnnouncement = () => {
       </div>
       </section>
     </div>
+    
   );
 };
 
